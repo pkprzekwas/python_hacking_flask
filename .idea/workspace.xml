@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88151c4b-61c1-49e8-af04-90375f4ef47a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/application.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/forms.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/templates/add.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/static/css/main.css" afterPath="$PROJECT_DIR$/src/static/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/static/css/normalize.css" afterPath="$PROJECT_DIR$/src/static/css/normalize.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/static/css/normalize.min.css" afterPath="$PROJECT_DIR$/src/static/css/normalize.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/static/js/main.js" afterPath="$PROJECT_DIR$/src/static/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/static/js/vendor/jquery-1.11.2.min.js" afterPath="$PROJECT_DIR$/src/static/js/vendor/jquery-1.11.2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/static/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" afterPath="$PROJECT_DIR$/src/static/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/templates/404.html" afterPath="$PROJECT_DIR$/src/templates/404.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/templates/500.html" afterPath="$PROJECT_DIR$/src/templates/500.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/templates/base.html" afterPath="$PROJECT_DIR$/src/templates/base.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/templates/index.html" afterPath="$PROJECT_DIR$/src/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/flask_app.iml" afterPath="$PROJECT_DIR$/.idea/flask_app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -82,6 +61,16 @@
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -786,9 +775,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1362" height="720" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -854,6 +842,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1125,6 +1116,14 @@
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
